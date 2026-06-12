@@ -61,7 +61,7 @@ condition_per_year = condition_rating / (car_age + 1)
 demand_relative_to_age = demand_score * car_age
 ```
 
-![co-relation] 'https://github.com/rohannn16/car-listedPrice-regression-model/blob/main/images/corelation.png'
+![co-relation](https://github.com/rohannn16/car-listedPrice-regression-model/blob/main/images/corelation.png)
 
 
 > ⚠️ **Note for inference:** `condition_per_year` must be computed before passing data to the model.
@@ -133,7 +133,7 @@ prediction = model.predict(new_data)
 print(f"Predicted Listed Price: ₹{prediction[0]:,.0f}")
 ```
 
-![load_unseendata]https://github.com/rohannn16/car-listedPrice-regression-model/blob/main/images/load_prediction_unseenData.png)
+![load_unseendata](https://github.com/rohannn16/car-listedPrice-regression-model/blob/main/images/load_prediction_unseenData.png)
 
 
 ---
