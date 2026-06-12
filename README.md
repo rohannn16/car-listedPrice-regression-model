@@ -4,7 +4,7 @@ A machine learning project to predict the **listed price of used cars in India**
 
 ---
 
-
+![Banner](https://github.com/rohannn16/car-listedPrice-regression-model/blob/main/images/banner.png)
 
 ## 📌 Problem Statement
 
@@ -61,6 +61,9 @@ condition_per_year = condition_rating / (car_age + 1)
 demand_relative_to_age = demand_score * car_age
 ```
 
+![co-relation] 'https://github.com/rohannn16/car-listedPrice-regression-model/blob/main/images/corelation.png'
+
+
 > ⚠️ **Note for inference:** `condition_per_year` must be computed before passing data to the model.
 > Formula: `condition_per_year = condition_rating / (car_age + 1)`
 > Example: `condition_rating=5`, `car_age=1` → `5 / (1+1) = 2.5`
@@ -99,6 +102,8 @@ Two separate preprocessing pipelines were built — one for linear models (with 
 
 ---
 
+![diagonostic_visualization](https://github.com/rohannn16/car-listedPrice-regression-model/blob/main/images/diagonostic_visualization.png)
+
 ## 🚀 Deployment
 
 The best model (Tuned Random Forest) is saved as a full scikit-learn Pipeline — it handles all preprocessing internally, so you only need to pass raw input.
@@ -127,6 +132,9 @@ new_data = pd.DataFrame([{
 prediction = model.predict(new_data)
 print(f"Predicted Listed Price: ₹{prediction[0]:,.0f}")
 ```
+
+![load_unseendata]https://github.com/rohannn16/car-listedPrice-regression-model/blob/main/images/load_prediction_unseenData.png)
+
 
 ---
 
